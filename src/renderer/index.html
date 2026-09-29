@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- 脚本仅允许本地构建文件；内联样式供每个档案的颜色/变换使用，localhost WebSocket 供开发热更新使用。 -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' ws://localhost:*" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terrorist Crosshair 1.0.0</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
